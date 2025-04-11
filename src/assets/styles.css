@@ -4,3 +4,7 @@ html,
 body {
   background-color: #f1f1f1;
 }
+
+.router-link-exact-active {
+  @apply font-semibold bg-blue-500 text-white p-2 rounded transition-all;
+}
